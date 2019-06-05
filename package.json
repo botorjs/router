@@ -1,0 +1,49 @@
+{
+  "name": "@botorjs/router",
+  "version": "0.0.1",
+  "description": "Library that of Botorjs is middleware and router and structs component",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/botorjs/router.git"
+  },
+  "keywords": [
+    "botor",
+    "botorjs",
+    "route",
+    "component",
+    "node",
+    "typescript",
+    "route-bus"
+  ],
+  "author": "norton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/botorjs/router/issues"
+  },
+  "homepage": "https://github.com/botorjs/router#readme",
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/debug": "^4.1.2",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^11.11.3",
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.3",
+    "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "@botorjs/boot": "0.0.1",
+    "@botorjs/event-bus": "0.0.1",
+    "@botorjs/server": "0.0.1",
+    "debug": "^4.1.1"
+  }
+}
